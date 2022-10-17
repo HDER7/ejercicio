@@ -1,2 +1,52 @@
+@import url('https://fonts.google.com/specimen/Outfit');
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(0, 0%, 0%); }
+body{
+    background-image: url('https://media.istockphoto.com/vectors/abstract-wavy-halftone-dots-background-vector-id1225681170?k=20&m=1225681170&s=612x612&w=0&h=qFzphEqIRbzXBdzL3kqcfwS2ULgmOpIRFYi_2WSgCto=');
+    font-family:'Outfit',sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400, 700;
+    font-size: 15px;
+}
+h2{
+    color:hsl(218, 44%, 22%) ;
+}
+p{
+    color: hsl(220, 15%, 55%);
+}
+#contenedor{
+    box-shadow: 5px 5px 10px 2px rgba(178, 178, 178, 0.618);
+    background-color: hsl(212, 45%, 89%);
+    position: relative;
+    left: 5%;
+    height: calc(650px - 70px);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: calc(100% - 150px);
+}
+#central {
+    box-shadow: 5px 5px 10px 2px rgba(178, 178, 178, 0.618);
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: calc(100% - 1100px);
+    height: calc(600px - 140px);
+    top: calc(20% - 80px);
+    left: calc(60% - 320px);
+    background-color:hsl(0, 0%, 100%);
+    vertical-align: text-bottom;
+    position: absolute;
+    margin: 20px;
+    }
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+@media screen and (max-width : 980px){
+
+}
+
+@media screen and (max-device-width: 480px) {
+
+}
